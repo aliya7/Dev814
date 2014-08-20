@@ -1,0 +1,12 @@
+/*
+ Theme Name:   Tracks Child
+ Template:     tracks
+*/
+ 
+@import url("../tracks/style.min.css");
+ 
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.main {
+	background: #004d72;
+}
