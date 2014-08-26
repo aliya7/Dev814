@@ -10,3 +10,7 @@
 .main {
 	background: #004d72;
 }
+
+.entry-header::after {
+	background: transparent;
+}

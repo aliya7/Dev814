@@ -1,7 +1,5 @@
 <footer class="site-footer" role="contentinfo">
-    <h3>
-        <a href="<?php echo esc_url(home_url()); ?>"><?php bloginfo('title'); ?></a>
-    </h3>
+   
     <?php if(get_bloginfo('description') && ( get_theme_mod('tagline_display_setting') == 'header-footer' ) || ( get_theme_mod('tagline_display_setting') == 'footer' )){ ?>
         <p class="site-description"><?php bloginfo('description'); ?></p>
     <?php } ?>
@@ -15,9 +13,7 @@
             ct_tracks_social_icons_output();
         }
     ?>
-    <div class="design-credit">
-        <p><a href="http://www.competethemes.com/tracks/">Tracks WordPress Theme</a> by Compete Themes</p>
-    </div>
+    
 </footer>
 <button id="return-top" class="return-top">
     <i class="fa fa-arrow-up"></i>
